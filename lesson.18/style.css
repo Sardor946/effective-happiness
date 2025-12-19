@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+header{
+    margin-top: 20px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #7D7987;
+}
+
+.navbar ul li{
+    font-size: 18px;
+    list-style: none;    
+}
+.navbar ul li a:hover{
+    color: black;
+}
+.main__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.main__header div{
+    width: 440px;
+
+
+}
+
+.main__header div h1 {
+    font-size: 45px;
+}
+
+.main__header div p {
+    margin-top: 30px;
+    color: #7D7987;
+}
+
+.main__header div button{
+   font-size: 18px;
+   width: 200px;
+   height: 50px;
+   background-color: #458FF6;
+   border-radius: 55px;
+   margin-top: 20px;
+   color: white;
+   border: none;
+}
+.main__header div button:hover{
+    background-color: blue;
+    
+}
+.services{
+    text-align: center;
+}
+
+.services h3{
+    font-size: 35px;
+}
+
+.p-class{
+       width: 950px;
+    margin: 0 auto;  
+    opacity: 0.7;
+}
+.services__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+    list-style: none;
+    text-align: start;
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services__list li:hover{
+    background-color: #5A98F2;
+    color: #fff;
+}
+
+
+
+.services__list li{
+    width: 380px;
+    padding: 380px;
+    background-color:#E7E7E7 ;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    border-radius: 20px;
+
+}
+.services__list li h4{
+    font-size: 24px;
+}
+.services__list li p{
+    font-size: 16px;
+    color: #7D7987;
+}
+
+.services button{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #5A98F2;
+    color: #458FF6;
+    background: none;
+    cursor: pointer;
+}
+.services button:hover{
+    background: #5A98F2;
+    color: #fff;
+    border: none;
+}
